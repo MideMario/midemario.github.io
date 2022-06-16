@@ -1,0 +1,71 @@
+body {
+    box-sizing: border-box;
+    background-color: black;
+}
+
+.container {
+    background-color: blanchedalmond;
+  width: 100%;
+  /* margin: auto; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.firstboxes {
+    width: 100%;
+    height: 50%;
+    display: flex;
+
+}
+.secondboxes {
+    width: 100%;
+    height: 50%;
+    display: flex;
+}
+
+.one {
+    background-color: brown;
+    width: 95%;
+    text-align: center;
+    padding: 30px;
+    margin: 10px 0px 10px 10px;
+}
+.two {
+    background-color: aqua;
+    margin:10px 10px 10px 30px;
+    padding: 30px;
+    text-align: center;
+}
+.first {
+    background-color: palevioletred;
+    width: 50%;
+    padding: 70px;
+    margin: 10px 0px 10px 10px;
+    height: 45%;
+
+}
+.second {
+    width: 50%;
+}
+
+.half-one {
+    height: 25%;
+    background-color: pink;
+    margin: 10px;
+    /* word-wrap: break-word; */
+    padding: 10px;
+    text-align: center;
+}
+
+.half-two {
+    height: 35%;
+    background-color: lavenderblush;
+    margin: 10px;
+    /* word-wrap: break-word; */
+    padding: 10px;
+    text-align: center;
+}

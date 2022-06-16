@@ -1,0 +1,147 @@
+body {
+    box-sizing: border-box;
+    font-family: 'Big Shoulders Display', cursive;
+font-family: 'Lexend Deca', sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    height: 500px;
+    border-radius: 10px;
+    padding: 0;
+    
+
+}
+.box-1 {
+    background-color: hsl(31, 77%, 52%);
+    align-self: center;
+    height: 50%;
+    text-align: left;
+    border-radius: 10px 0px 0px 10px;
+    padding: 30px 10px 30px 10px;
+    color: white;
+    word-wrap: break-word;
+    width: 20%;
+}
+  
+
+.box-2 {
+    background-color:  hsl(184, 100%, 22%);
+    align-self: center;
+     height: 50%;
+    text-align: left;
+    padding: 30px 10px 30px 10px;
+    color: white;
+    width: 20%;
+    word-wrap: break-word;
+   
+}
+.box-3 {
+    background-color: hsl(179, 100%, 13%);
+    align-self: center;
+    height: 50%;
+    text-align: left;
+    border-radius: 0px 10px 10px 0px;
+    padding: 30px 10px 30px 10px;
+    color: white;
+    word-wrap: break-word;
+    width: 20%;
+}
+
+h1 {
+  font-size: 30px; 
+  font-family: 'Big Shoulders Display', cursive;
+  font-weight: 700;
+}
+p {
+   font-size:12px ; 
+   font-family: 'Lexend Deca', sans-serif;
+   font-weight: 400;
+}
+.texts {
+    text-align: left;
+    padding: 20px 20px 30px 10px;
+}
+
+.heading {
+    padding: 0;
+    margin: 30px 30px 10px 10px;
+    text-align: left;
+}
+.btn1 {
+    border-radius: 15px;
+    border: none;
+    padding: 5px 10px;
+    margin-left: 10px;
+}
+.btn2 {
+    border-radius: 15px;
+    border: none;
+    padding: 5px 10px;
+    margin-left: 10px;
+}
+.btn3 {
+    border-radius: 15px;
+    border: none;
+    padding: 5px 10px;
+    margin-left: 10px;
+}
+.btn1 a {
+    color: hsl(31, 77%, 52%);
+    text-decoration: none;
+    font-size: 10px;
+}
+.btn2 a{
+    color: hsl(184, 100%, 22%);
+    text-decoration: none;
+    font-size: 10px;
+}
+.btn3 a{
+    color: hsl(179, 100%, 13%);
+    text-decoration: none;
+    font-size: 10px;
+}
+
+@media screen and (max-width:375px) {
+    .container{
+        flex-direction: column;}
+    .box-1 {
+        width: 100%;
+        flex: 1;
+        border-radius: 0px;
+    }
+    .box-2 {
+        width: 100%;
+        flex: 1;
+        border-radius: 0;
+    }
+    .box-3 {
+        width: 100%;
+        flex: 1;
+        border-radius: 0;
+    }
+
+}
+@media screen and (max-width:705px) {
+    .container{
+        flex-direction: column;}
+    .box-1 {
+        width: 100%;
+        flex: 1;
+        border-radius: 0px;
+    }
+    .box-2 {
+        width: 100%;
+        flex: 1;
+        border-radius: 0;
+    }
+    .box-3 {
+        width: 100%;
+        flex: 1;
+        border-radius: 0;
+    }
+
+}
